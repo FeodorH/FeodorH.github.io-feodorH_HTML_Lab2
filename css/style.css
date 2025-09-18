@@ -3,8 +3,6 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: red !important; /* Яркий цвет для теста */
-    font-size: 30px !important;
 }
 
 h1 {
