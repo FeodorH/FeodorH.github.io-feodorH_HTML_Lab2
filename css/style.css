@@ -5,7 +5,7 @@ header {
     overflow: hidden; /* Обтекание float */
 }
 
-        .logo {
+.logo {
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -14,7 +14,7 @@ header {
     object-fit: cover;
 }
 
-        .header-right {
+.header-right {
     overflow: hidden; /* Новый блок обтекания */
 }
 
@@ -31,7 +31,7 @@ padding: 5px 10px;
 background: rgba(255,255,255,0.1);
         }
 
-                .site-title {
+.site-title {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
@@ -47,7 +47,7 @@ body {
     background: #ecf0f1;
 }
 
-        .content {
+.content {
     max-width: 960px;
     margin: 40px auto;
     padding: 20px;
@@ -57,7 +57,7 @@ body {
 
 /*Список*/
 
-		.list {
+.list {
     max-width: 880px;
     background-color: #999;
     margin: 20px 40px;
@@ -65,19 +65,19 @@ body {
     border-radius: 10px;
 }
 
-		.list li {
+.list li {
 margin: 10px 0;
 padding: 5px;
 		}
 
-                .list a {
+    .list a {
 color: #333;
 text-decoration: none;
 		}
 
 
-                /*таблица*/
-                .table {
+/*таблица*/
+.table {
     width: 100%;
     max-width: 880px;
     margin: 40px auto;
@@ -85,30 +85,30 @@ text-decoration: none;
     background: white;
 }
 
-        .table th, .table td {
+.table th, .table td {
 padding: 12px;
 border: 1px solid #ddd;
 text-align: center;
-        }
+}
 
-                .table th {
+.table th {
 background: #2c3e50;
 color: white;
 font-weight: bold;
-        }
+}
 
-                /* Четные строки */
-                .table tbody tr:nth-child(even) {
+/* Четные строки */
+.table tbody tr:nth-child(even) {
     background-color: #f8f9fa;
 }
 
 /* Нечетные строки */
-        .table tbody tr:nth-child(odd) {
+.table tbody tr:nth-child(odd) {
     background-color: #e9ecef;
 }
 
 /*форма*/
-        .form {
+.form {
     max-width: 800px;
     margin: 40px auto;
     padding: 40px;
@@ -116,12 +116,12 @@ font-weight: bold;
     border-radius: 10px;
 }
 
-        .simple-form p {
+.simple-form p {
 margin: 15px 0;
 overflow: hidden; /* Clearfix */
-        }
+}
 
-                .label {
+.label {
     float: left;
     width: 200px;
     padding: 5px 10px 0 0;
@@ -129,7 +129,7 @@ overflow: hidden; /* Clearfix */
     font-weight: bold;
 }
 
-        .radio-label, .checkbox-label {
+.radio-label, .checkbox-label {
     float: left;
     margin: 0 20px 0 0;
 }
@@ -155,11 +155,11 @@ button {
     cursor: pointer;
 }
 
-        .clearfix {
+.clearfix {
     overflow: hidden;
 }
 
-		.footer {
+.footer {
     background: gray;
     color: black;
     text-align: left;
